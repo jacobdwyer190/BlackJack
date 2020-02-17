@@ -148,9 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BlackJack.cpp" />
-    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Card.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Card.hpp" />
     <ClInclude Include="Player.hpp" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
