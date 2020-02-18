@@ -19,9 +19,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Card.cpp">
+<<<<<<< HEAD
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Deck.cpp">
+=======
+>>>>>>> PlayerClass
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,8 +35,11 @@
     <ClInclude Include="Card.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="Deck.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
+=======
+>>>>>>> PlayerClass
   </ItemGroup>
 </Project>

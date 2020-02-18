@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 
+	if (suit < firstSuit || suit > lastSuit) {
 Card::Card(){
 }
 
