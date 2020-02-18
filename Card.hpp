@@ -22,6 +22,7 @@ private:
 	std::string suitTypes[4] = {"C","D","H","S"};
 
 public:
+	Card();
 	Card(int type, int suit);
 	bool isAce();
 	bool faceCard();

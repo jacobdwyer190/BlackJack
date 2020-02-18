@@ -3,6 +3,9 @@
 #include <iostream>
 #include <string>
 
+Card::Card(){
+}
+
 Card::Card(int type, int suit) {
 	if (type < firstType || type > lastType) {
 		std::cerr << "Invaild type\n";
@@ -30,4 +33,7 @@ bool Card::faceCard() {
 
 std::string Card::toString() {
 	return std::string(cardTypes[type] + "" + suitTypes[suit]);
+}
+
+Card::~Card() {
 }
